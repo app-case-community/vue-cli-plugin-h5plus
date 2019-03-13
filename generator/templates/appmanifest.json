@@ -1,0 +1,65 @@
+{
+    "id": "VueH5Plus",
+    "version": {
+        "name": "0.0.1",
+        "code": "1"
+    },
+    "launch_path": "index.html",
+    "permissions": {
+        "Contacts": {
+            "description": "系统通讯录"
+        },
+        "Geolocation": {
+            "description": "位置信息"
+        },
+        "Messaging": {
+            "description": "消息通讯"
+        },
+        "Maps": {
+            "description": "地图"
+        },
+        "OAuth": {
+            "description": "登录授权"
+        },
+        "Payment": {
+            "description": "支付"
+        },
+        "Push": {
+            "description": "消息推送"
+        },
+        "Share": {
+            "description": "社交分享"
+        },
+        "Speech": {
+            "description": "语音识别"
+        },
+        "Statistic": {
+            "description": "统计"
+        },
+        "VideoPlayer": {
+            "description": "视频播放"
+        },
+        "LivePusher": {
+            "description": "直播推流"
+        }
+    },
+    "plus": {
+        "splashscreen": {
+            "autoclose": true,
+            "waiting": true
+        },
+        "statusbar": {
+            "immersed": true,
+            "background": "#D74B28"
+        },
+        "launchwebview" : {
+            "titleNView" : {
+                "titleText" : "Hello Vue",
+                "titleColor": "#CCCCCC",
+                "backgroundColor" : "#D74B28"
+            }
+        },
+        "popGesture": "close",
+        "signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw=="
+    }
+}

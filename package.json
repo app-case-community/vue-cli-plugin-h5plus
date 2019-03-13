@@ -1,0 +1,17 @@
+{
+  "name": "vue-cli-plugin-h5plus",
+  "version": "1.0.0",
+  "description": "vue-cli 3 plugin to add h5plus",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/app-case-community/vue-cli-plugin-h5plus.git"
+  },
+  "keywords": [
+    "html5plus",
+    "h5plus",
+    "vue"
+  ],
+  "author": "Zhe Zhu",
+  "license": "MIT"
+}
