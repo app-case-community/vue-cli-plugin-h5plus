@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-h5plus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue-cli 3 plugin to add h5plus",
   "main": "index.js",
   "repository": {

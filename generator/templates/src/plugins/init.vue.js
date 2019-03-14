@@ -14,9 +14,13 @@ Object.defineProperty(Vue.prototype, '$plus', {
 // 打开页面
 var _openw = null
 Vue.prototype.$page = {
-  open (url, { title, anim, titleBarOpts }) {
+  open (url, { title, anim, titleBarOpts } = {}) {
     if (_openw) { return } // 防止快速点击
     var plus = window.plus
+    if (!plus) {
+      location.href = url
+      return
+    }
     var ws = {
       scrollIndicator: 'none',
       scalable: false,
