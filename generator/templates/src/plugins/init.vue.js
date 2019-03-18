@@ -11,6 +11,23 @@ Object.defineProperty(Vue.prototype, '$plus', {
   }
 })
 
+Object.defineProperty(Vue.prototype, '$webview', {
+  get: function () {
+    return window.plus.webview
+  }
+})
+
+Object.defineProperty(Vue.prototype, '$currentWebview', {
+  get: function () {
+    return window.plus.webview.currentWebview()
+  }
+})
+Object.defineProperty(Vue.prototype, '$nativeUI', {
+  get: function () {
+    return window.plus.nativeUI
+  }
+})
+
 // 打开页面
 var _openw = null
 Vue.prototype.$page = {
